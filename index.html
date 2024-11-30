@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Animation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div>
+        
+            <!-- Main Navbar (it disappears when scrolling down) -->
+            <nav class="navbar">
+                <div class="logo">Sophia</div>
+                <ul class="menu">
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Information</a></li>
+                    <li><a href="#">Cart(0)</a></li>
+                </ul>
+                <div class="buttons">
+                    <button class="btn login">More Templates</button>
+                    <button class="btn signup">Buy Sophia</button>
+                    <div class="narrow-row"></div> <!-- The narrow row element that will appear next to "Buy Sophia" -->
+                </div>
+                <div class="navbar-toggle" onclick="toggleMenu()">☰</div>
+            </nav>
+        
+            <!-- Fixed Navbar that appears after scrolling -->
+            <nav class="navbar fixed">
+                <div class="logo">Sophia</div>
+                <ul class="menu" >
+                    <li><a href="#" style="color: black;">Overview</a></li>
+                    <li><a href="#" style="color: black;">Pages</a></li>
+                    <li><a href="#" style="color: black;">Information</a></li>
+                    <li><a href="#" style="color: black;">Cart(0)</a></li>
+                </ul>
+                <div class="buttons">
+                    <button class="btn login" style="color: black;">More Templates</button>
+                    <button class="btn signup">Buy Sophia</button>
+                    <div class="narrow-row"></div> <!-- The narrow row element that will appear next to "Buy Sophia" -->
+                </div>
+                <div class="navbar-toggle fixed" onclick="toggleMenu()">☰</div>
+            </nav>
+        
+    </div>
+    
+    <div class="videodiv">
+        <div class="overlay"></div>
+        <video class="video" autoplay muted loop>
+            <source src="C:/Users/WIN(10)X64/Downloads/Video/test.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <p>SIMPLE HEALTHCARE</p>
+            <h1>Health for a new<br> generation</h1>
+            <button>Get started</button>
+        </div>
+    </div>
+    <div style="height: 1200px;">
+
+    </div>
+
+    <script src="javas.js"></script>
+</body>
+
+</html>

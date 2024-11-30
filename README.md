@@ -21,7 +21,7 @@ Clone the Repository:
 
 bash
 Copy
-git clone https://github.com/yourusername/video-animation-project.git
+git clone https://github.com/AbdallahNaser/video-animation-project.git
 Navigate to the Project Directory:
 
 bash
